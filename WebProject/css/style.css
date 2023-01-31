@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+
+}
+
+header{
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
+    
+}
+body{
+    background-color: black;
+}
+main{
+    margin-top: -80px;
+}
+nav {
+    display: flex;
+    padding-right: 9%;
+}
+ul{
+    display: flex;
+    margin-right: 15%;
+}
+li{
+   list-style-type: none;
+}
+a{
+    text-decoration: none;
+    padding-left: 5%;
+    color: white;
+}
+button{
+    margin-left: 10%;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+article{
+    margin-left: 2%;
+}
+.btn button{
+    background-color: rgb(52, 84, 187);
+    border-radius: 5px;
+}
+a:hover{
+    background-color: orange;
+    color: rgb(109, 109, 151);
+}
+button:active{
+    background-color: blueviolet;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
